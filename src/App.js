@@ -1,6 +1,6 @@
 import './App.css';
 import { useHistory, Switch, Route } from 'react-router-dom';
-import Layout from './components/Layout';
+import Layout from './components/Layout/Layout';
 // import Main from './screens/Main/Main';
 
 function App() {
