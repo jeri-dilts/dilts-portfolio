@@ -16,9 +16,13 @@ a{
 }
 .right-nav{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-.header-links{
+    flex-direction: row;
+    align-items: flex-end;
     font-family: 'Montserrat', sans-serif;
+}
+.link {
+    margin-left: 2.2em;
+}
+.link:hover{
+    text-decoration: underline;
 }

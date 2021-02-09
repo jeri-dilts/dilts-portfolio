@@ -6,9 +6,10 @@ export default function Header() {
     <div className="header-container">
         <div className="name-link"><Link to="/">JERI DILTS</Link></div>
         <div className="right-nav">
-            <div className="header-links"><Link to="about">About</Link></div>
-            <div className="header-links"><Link to="portfolio">Portfolio</Link></div>
-            <div className="header-links"><Link to="contact">Contact</Link></div>
+            <Link to="about" className="link">About</Link>
+            <Link to="portfolio" className="link">Portfolio</Link>
+            <Link to="contact" className="link">Resume</Link>
+            <Link to="contact" className="link">Contact</Link>
         </div>
     </div>
   );
