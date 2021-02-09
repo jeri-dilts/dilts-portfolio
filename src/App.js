@@ -1,17 +1,17 @@
 import './App.css';
 import { useHistory, Switch, Route } from 'react-router-dom';
-import Layout from './layouts/layout';
-import Main from './screens/Main/Main';
+import Layout from './components/Layout';
+// import Main from './screens/Main/Main';
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <Switch>
+        {/* <Switch>
           <Route path='/'>
             <Main />
           </Route>
-        </Switch>
+        </Switch> */}
       </Layout>
     </div>
   );
