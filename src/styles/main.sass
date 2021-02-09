@@ -1,5 +1,10 @@
+// $parallax-perspective: 8px
+
+// @function parallax-scale-factor($z-distance)
+//     @return ($parallax-perspective  -  $z-distance) / $parallax-perspective
+
 .image
-    position: absolute
+    position: absolute  
     transform-origin: 0 50%
     width: 420px
     height: 420px
@@ -7,14 +12,16 @@
 .background__image
     @extend .image
     height: 500px
+    width: auto
     transform: translateZ(0px) scale(1)
 
 .middle__image
     @extend .image
     top: 150px
-    transform: translateZ(5px) scale(0.3)
+    transform: translateZ(5px) scale(.4)
+    // transform: translateZ(5px) scale(parallax-scale-factor(5))
 
 .foreground__image
     @extend .image
     top: 125px
-    transform: translateZ(2px) scale(0.2)
+    // transform: translateZ(2px) scale(parallax-scale-factor(2))

@@ -7,17 +7,17 @@
 
 .background__image {
   height: 500px;
+  width: auto;
   transform: translateZ(0px) scale(1);
 }
 
 .middle__image {
   top: 150px;
-  transform: translateZ(5px) scale(0.3);
+  transform: translateZ(5px) scale(0.4);
 }
 
 .foreground__image {
   top: 125px;
-  transform: translateZ(2px) scale(0.2);
 }
 
 /*# sourceMappingURL=main.css.map */
