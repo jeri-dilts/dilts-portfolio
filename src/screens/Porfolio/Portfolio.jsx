@@ -9,28 +9,28 @@ export default function Portfolio() {
             title:"Geosmin",
             deploy_url:"https://geosmin.netlify.app/",
             github_url:"https://github.com/jeri-dilts/geosmin",
-            image_path:"../../img/",
+            image_path:"https://i.imgur.com/JCmcnIn.png",
             description:""
         },
         "tt_chat":{
             title:"TT Chat",
             deploy_url:"https://tt-chat-ticket-tracker.netlify.app/",
             github_url:"https://github.com/jeri-dilts/TT_Ticket_Tracker",
-            image_path:"../../img/",
+            image_path:"https://i.imgur.com/gH832UN.png",
             description:""
         },
         "pizza":{
             title:"Pizza Pie!",
             deploy_url:"https://pizza-pie.netlify.app/",
             github_url:"https://github.com/jeri-dilts/pizza",
-            image_path:"../../img/",
+            image_path:"https://i.imgur.com/Ngb91vo.png",
             description:""
         },
         "geosmin":{
             title:"Geosmin",
             deploy_url:"https://geosmin.netlify.app/",
             github_url:"https://github.com/jeri-dilts/geosmin",
-            image_path:"../../img/",
+            image_path:"https://i.imgur.com/JCmcnIn.png",
             description:""
         }
     }
@@ -46,6 +46,6 @@ export default function Portfolio() {
     )
 
     return (
-        <div className="portfolio-container">{PROJECTS}</div>
+        <div>{PROJECTS}</div>
     );
 }

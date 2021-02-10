@@ -1,11 +1,9 @@
-.projectCard {
+.project-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    width: 225px;
-    height: 305px;
-    align-items: flex-start;
+
     margin: 35px 10px 35px 10px;
+    background-color:#455B64;
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -2px #777;
     box-shadow: 0 10px 6px -6px #777;
@@ -16,11 +14,11 @@
 }
 
 .card-imgURL {
-    width: 225px;
-    height: 325px;
+    width: auto;
+    height: 170px;
     object-fit: cover;
     margin-top: 10px;
-    justify-content: space-evenly;
+    padding: 10px;
 }
 
 .card-title {
@@ -30,4 +28,6 @@
     height: 40px;
     width: 225px;
     margin-top:5px;
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
