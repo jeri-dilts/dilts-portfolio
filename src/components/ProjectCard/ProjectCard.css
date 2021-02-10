@@ -1,0 +1,33 @@
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 225px;
+    height: 305px;
+    align-items: flex-start;
+    margin: 35px 10px 35px 10px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -2px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.card {
+    align-self: center;
+}
+
+.card-imgURL {
+    width: 225px;
+    height: 325px;
+    object-fit: cover;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.card-title {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    height: 40px;
+    width: 225px;
+    margin-top:5px;
+}
