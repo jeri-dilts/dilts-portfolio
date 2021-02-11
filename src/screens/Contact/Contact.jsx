@@ -61,7 +61,8 @@ const ContactForm = () => {
 
   return (
     <div className="CU-div">
-      <h1>Contact us!</h1>
+      <h1>Contact Me!</h1>
+      <h4>diltsjeri@gmail.com</h4>
       <form className="CU-form" onSubmit={handleSubmit}>
         <TextField
           required

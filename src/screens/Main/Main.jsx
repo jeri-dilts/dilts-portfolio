@@ -1,5 +1,5 @@
 // import "./Main.css";
-import "../../styles/main.sass";
+import "../../styles/main.css";
 
 export default function Main() {
   return (
