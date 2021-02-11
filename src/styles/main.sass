@@ -1,8 +1,9 @@
-// :root
-//     $parallax-perspective: 8px
+$parallax-perspective: 8
 
-// @function parallax-scale-factor($z-distance)
-//     @return ($parallax-perspective  -  $z-distance) / $parallax-perspective
+@function parallax-scale-factor($z-distance)
+    $diff: $parallax-perspective - $z-distance
+    $answer: $diff / $parallax-perspective
+    @return $answer
 
 .image
     position: absolute  
@@ -20,9 +21,11 @@
     @extend .image
     top: 150px
     transform: translateZ(5px) scale(.4)
-    // transform: translateZ(5px) scale(parallax-scale-factor(5))
+    transform: translateZ(5px) scale(parallax-scale-factor(5))
 
 .foreground__image
     @extend .image
     top: 125px
-    // transform: translateZ(2px) scale(parallax-scale-factor(2))
+    transform: translateZ(2px) scale(parallax-scale-factor(2))
+
+
