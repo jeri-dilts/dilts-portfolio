@@ -12,6 +12,7 @@
     flex-direction: row;
     align-items: flex-end;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1em;
 }
 .link {
     padding-left: 1.1em;

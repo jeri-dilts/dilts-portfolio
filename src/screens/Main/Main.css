@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
-
 .main-container {
     display: flex;
     flex-direction: column;
@@ -36,7 +34,6 @@
 .link:hover {
     color: #81C14B;
 }
-
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;

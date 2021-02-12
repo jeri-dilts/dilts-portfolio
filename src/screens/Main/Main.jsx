@@ -9,9 +9,9 @@ export default function Main(){
       <div className="sub-title">Junior Full Stack Developer</div>
       <div className="nav">
         <Link to="ThanksForViewing/about" className="link">About</Link>
-        <Link to="portfolio" className="link">Portfolio</Link>
+        <Link to="ThanksForViewing/portfolio" className="link">Portfolio</Link>
         <a href={pdf} className="link">Resume</a>
-        <Link to="contact" className="link">Contact</Link>
+        <Link to="ThanksForViewing/contact" className="link">Contact</Link>
       </div>
     </div>
   );
