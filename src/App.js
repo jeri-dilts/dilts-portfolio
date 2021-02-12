@@ -1,24 +1,24 @@
-import './App.css';
 import { useHistory, Switch, Route } from 'react-router-dom';
+import React, { Fragment } from 'react'
 import Layout from './components/Layout/Layout';
 import Main from './screens/Main/Main';
 import About from './screens/About/About';
 import Portfolio from './screens/Porfolio/Portfolio';
 import Contact from './screens/Contact/Contact';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <Layout>
-        <Switch>
-          <Route path='/about'><About /></Route>
-          <Route path='/portfolio'><Portfolio /></Route>
-          <Route path='/contact'><Contact /></Route>
-          <Route path='/'><Main /></Route>
-        </Switch>
-      </Layout>
+      <Switch>
+        <Route path='/ThanksForViewingMyWebsite' component={Main} />
+        <Fragment>
+          <Layout>
+            <Route path='/ThanksForViewing/about' component={About} />
+            <Route path='/ThanksForViewing/portfolio' component={Portfolio} />
+            <Route path='/ThanksForViewing/contact' component={Contact} />
+          </Layout>
+        </Fragment>
+      </Switch>
     </div>
   );
 }
-
-export default App;
