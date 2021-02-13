@@ -5,16 +5,37 @@
     margin-top: 50px;
 }
 
-.portfolio_img{
-    display: flex;
-    border-radius: 50%;
-    width: 400px;
-    height: 500px;
-}
-
 .about-paragraph{
     display: flex;
     font-family: 'Montserrat', sans-serif;
     align-items: center;
     width: 350px;
 }
+svg.dev-icon-container{
+    height: 3em;
+    width: 3em;
+    color:#455b64
+}
+svg.dev-icon-container:hover{
+    color:#81C14B;
+}
+
+
+.text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #455b64;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+  .icon:hover + .text {
+    visibility: visible;
+  }
