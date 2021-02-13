@@ -1,6 +1,6 @@
 import "./About.css";
 import { IconContext } from "react-icons";
-import { FaLinkedin, FaGithub } from "react-icons/fa"
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import {
   DiHeroku,
   DiJavascript1,
@@ -15,13 +15,12 @@ import {
   DiRor,
   DiVisualstudio,
   DiPerl,
-  DiNpm
+  DiNpm,
 } from "react-icons/di";
 
 export default function About() {
   return (
-    <div>
-
+    <div className="page-container">
       <div className="about-container">
         <div className="about-paragraph">
           Hello! In my previous life I was a scientist, but now I'm a software
@@ -31,73 +30,52 @@ export default function About() {
           as my approach to life. I thrive in challenging environments and am
           looking for a company just as ambitious as myself.
         </div>
-        <div>
-        <IconContext.Provider value={{ className: "icon-container" }}>
-          <div className="icon">
-            <a href="https://linkedin.com/in/jeri-dilts"><FaLinkedin /></a>
-            <a href="https://github.com/jeri-dilts"><FaGithub /></a>
-          </div>
-        </IconContext.Provider>
+        <div className="gh-li-icon-container">
+          <IconContext.Provider value={{ className: "gh-li-icon" }}>
+            <div className="icon">
+              <a href="https://linkedin.com/in/jeri-dilts">
+                <FaLinkedin />
+              </a>
+              <a href="https://github.com/jeri-dilts">
+                <FaGithub />
+              </a>
+            </div>
+          </IconContext.Provider>
         </div>
       </div>
 
-      <IconContext.Provider value={{ className: "dev-icon-container" }}>
-        <div className="icon">
-          <DiReact />
-        </div>
-        <div className="text">React</div>
-        <div className="icon">
-          <DiHeroku />
-        </div>
-        <div className="text">Heroku</div>
-        <div className="icon">
+      <div className="dev-icon-container">
+        <IconContext.Provider value={{ className: "dev-icon" }}>
+          <div className="icon, item-center"><DiReact /></div>
+          <div className="text">React</div>
+          <div className="icon, item-center"><DiHeroku /></div>
+          <div className="text">Heroku</div>
           <DiJavascript1 />
-        </div>
-        <div className="text">Javascript</div>
-        <div className="icon">
+          <div className="text">Javascript</div>
           <DiHtml5 />
-        </div>
-        <div className="text">Html5</div>
-        <div className="icon">
+          <div className="text">Html5</div>
           <DiNodejs />
-        </div>
-        <div className="text">Nodejs</div>
-        <div className="icon">
+          <div className="text">Nodejs</div>
           <DiMsqlServer />
-        </div>
-        <div className="text">MySQL Server</div>
-        <div className="icon">
+          <div className="text">MySQL Server</div>
           <DiMongodb />
-        </div>
-        <div className="text">MongoDB</div>
-        <div className="icon">
+          <div className="text">MongoDB</div>
           <DiPostgresql />
-        </div>
-        <div className="text">Postgresql</div>
-        <div className="icon">
+          <div className="text">Postgresql</div>
           <DiLinux />
-        </div>
-        <div className="text">Linux</div>
-        <div className="icon">
+          <div className="text">Linux</div>
           <DiRuby />
-        </div>
-        <div className="text">Ruby</div>
-        <div className="icon">
+          <div className="text">Ruby</div>
           <DiRor />
-        </div>
-        <div className="text">Ruby on Rails</div>
-        <div className="icon">
+          <div className="text">Ruby on Rails</div>
           <DiVisualstudio />
-        </div>
-        <div className="text">Visual Studio</div>
-        <div className="icon">
+          <div className="text">Visual Studio</div>
           <DiPerl />
-        </div>
-        <div className="text">Perl</div>
-        <div className="icon">
+          <div className="text">Perl</div>
           <DiNpm />
-        </div>
-      </IconContext.Provider>
+          <div className="text">NPM</div>
+        </IconContext.Provider>
+      </div>
     </div>
   );
 }

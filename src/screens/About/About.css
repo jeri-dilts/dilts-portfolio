@@ -1,26 +1,78 @@
-.about-container{
+.page-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 50px;
 }
 
-.about-paragraph{
+
+
+/* left column */
+.about-container{
     display: flex;
-    font-family: 'Montserrat', sans-serif;
-    align-items: center;
-    width: 350px;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
 }
-svg.dev-icon-container{
+.about-paragraph{
+    font-family: 'Montserrat', sans-serif;
+    width: 350px;
+    text-align: center;
+    padding: 20px;
+}
+.gh-li-icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+svg.gh-li-icon{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+
+/* right column */
+.dev-icon-container{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 40%;
+    justify-content: center;
+}
+.item-center {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 4px;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* icon styling */
+svg.dev-icon, svg.gh-li-icon{
     height: 3em;
     width: 3em;
     color:#455b64
 }
-svg.dev-icon-container:hover{
+svg.dev-icon:hover, svg.gh-li-icon:hover{
     color:#81C14B;
 }
 
 
+
+/* tooltip feature */
 .text {
     visibility: hidden;
     width: 120px;
@@ -30,12 +82,12 @@ svg.dev-icon-container:hover{
     padding: 5px 0;
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
-
-    /* Position the tooltip text - see examples below! */
     position: absolute;
     z-index: 1;
 }
-
-  .icon:hover + .text {
+svg.dev-icon:hover + .text {
     visibility: visible;
-  }
+}
+/* .icon:hover + .text {
+    visibility: visible;
+} */
