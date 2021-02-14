@@ -5,6 +5,7 @@ import Main from './screens/Main/Main';
 import About from './screens/About/About';
 import Portfolio from './screens/Porfolio/Portfolio';
 import Contact from './screens/Contact/Contact';
+import ThankYou from './screens/ThankYou/ThankYou';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
             <Route path='/ThanksForViewing/about' component={About} />
             <Route path='/ThanksForViewing/portfolio' component={Portfolio} />
             <Route path='/ThanksForViewing/contact' component={Contact} />
+            <Route path='/ThanksForViewing/thankyou' component={ThankYou} />
           </Layout>
         </Fragment>
       </Switch>

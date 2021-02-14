@@ -6,7 +6,9 @@ import { useHistory } from "react-router-dom";
 import React, { useState } from "react";
 
 const ContactForm = () => {
+
   const history = useHistory();
+
   const [form, setForm] = useState({
     from_name: "",
     from_email: "",
@@ -37,7 +39,7 @@ const ContactForm = () => {
         templateParams,
         "user_V3N7pWJeD8tUCc53zAuDI"
       )
-      .then(() => history.push("/"));
+      .then(() => history.push("/ThanksForViewing/thankyou"));
   };
 
   const renderError = () => {
@@ -61,42 +63,45 @@ const ContactForm = () => {
 
   return (
     <div className="CU-div">
-      <h1>Contact Me!</h1>
-      <h4>diltsjeri@gmail.com</h4>
+      {/* <div className="contact-me-header">Contact Me</div> */}
       <form className="CU-form" onSubmit={handleSubmit}>
-        <TextField
-          required
-          onChange={handleChange}
-          name="from_name"
-          value={from_name}
-          className="textfield"
-          label="Name"
-          variant="outlined"
-          type="text"
-        />
-        <TextField
-          required
-          onChange={handleChange}
-          name="from_email"
-          value={from_email}
-          className="textfield"
-          label="E-mail"
-          variant="outlined"
-          type="text"
-        />
-        <TextField
-          required
-          multiline
-          onChange={handleChange}
-          name="message"
-          value={message}
-          className="textfield"
-          label="Message"
-          rows={4}
-          variant="outlined"
-        />
+        <div className="customize-textfield">
+          <TextField
+            required
+            onChange={handleChange}
+            name="from_name"
+            value={from_name}
+            className="textfield"
+            label="Name"
+            type="text"
+          />
+        </div>
+        <div className="customize-textfield">
+          <TextField
+            required
+            onChange={handleChange}
+            name="from_email"
+            value={from_email}
+            className="textfield"
+            label="E-mail"
+            type="text"
+          />
+        </div>
+        <div className="customize-textfield">
+          <TextField
+            required
+            multiline
+            onChange={handleChange}
+            name="message"
+            value={message}
+            className="textfield"
+            label="Message"
+            rows={6}
+          />
+        </div>
         {renderError()}
       </form>
+      <div className="email">diltsjeri@gmail.com</div>
     </div>
   );
 };

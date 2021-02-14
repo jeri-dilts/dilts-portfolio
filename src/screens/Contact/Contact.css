@@ -1,17 +1,24 @@
-.CU-div {
-    display: flex;
-    width: 100vw;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 200px;
-  }
-  
-  .CU-form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .textfield{
-    width: auto;
-  }
+.CU-div{
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  margin-top:50px;
+}
+.CU-form {
+  display: flex;
+  flex-direction: column;
+}
+.email{
+  font-family: 'Open Sans', sans-serif;
+  color:#455b64;
+  font-size: 1.1em;
+  margin-top: 50px;
+}
+.customize-textfield{
+  margin-bottom: 20px;
+}
+.textfield{
+  width: 40vw;
+}
