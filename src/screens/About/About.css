@@ -2,43 +2,55 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 50px;
+    align-items: center;
+    height: 70vh;
 }
 
 
 
 /* left column */
-.about-container{
+.photo-and-links-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 40%;
-}
-.about-paragraph{
-    font-family: 'Montserrat', sans-serif;
-    width: 350px;
-    text-align: center;
     padding: 20px;
+}
+.professional-image{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .gh-li-icon-container{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     padding: 20px;
 }
 svg.gh-li-icon{
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+/* middle column */
+.about-paragraph{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    margin-left: 20px;
 }
 
 
 
 /* right column */
 .dev-icon-container{
-    padding: 20px;
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    width: 40%;
+    width: 30%;
     justify-content: center;
 }
 .item-center {
@@ -48,15 +60,6 @@ svg.gh-li-icon{
     align-items: center;
     justify-items: center;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -85,9 +88,12 @@ svg.dev-icon:hover, svg.gh-li-icon:hover{
     position: absolute;
     z-index: 1;
 }
-svg.dev-icon:hover + .text {
+
+
+/* fix tool-tip feature */
+/* svg.dev-icon:hover + .text {
     visibility: visible;
 }
-/* .icon:hover + .text {
+.icon:hover + .text {
     visibility: visible;
 } */
