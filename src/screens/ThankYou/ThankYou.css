@@ -1,0 +1,9 @@
+.thank-you{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-family: 'Open Sans', sans-serif;
+    color:#455b64;
+    font-size: 2em;
+}
