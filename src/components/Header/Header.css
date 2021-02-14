@@ -6,15 +6,18 @@
 .name-link{
     font-family: 'Montserrat', sans-serif;
     font-size: 5em;
+    -webkit-transition: margin 0.5s ease-out;
+}
+.name-link:hover{
+    margin-top: -40px;
 }
 .right-nav{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    font-family: 'Montserrat', sans-serif;
     margin-bottom: 1em;
 }
-.link {
+.link{
     padding-left: 1.1em;
     padding-right: 1.1em;
     text-decoration: none;
@@ -22,8 +25,4 @@
 }
 .link:hover{
     color: #81C14B;
-}
-a:-webkit-any-link{
-    text-decoration: none;
-    color:#455b64;
 }
