@@ -10,7 +10,7 @@ export default function App() {
   return (
     <div className="App">
       <Switch>
-        <Route path='/ThanksForViewingMyWebsite' component={Main} />
+        <Route path='/ThanksForViewing!' component={Main} />
         <Fragment>
           <Layout>
             <Route path='/ThanksForViewing/about' component={About} />
