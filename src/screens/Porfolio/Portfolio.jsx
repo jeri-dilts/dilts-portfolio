@@ -9,28 +9,28 @@ export default function Portfolio() {
             title:"Geosmin",
             deploy_url:"https://geosmin.netlify.app/",
             github_url:"https://github.com/jeri-dilts/geosmin",
-            image_path:"https://i.imgur.com/JCmcnIn.png",
+            image_path:"https://i.imgur.com/DA7LINR.jpg",
             description:"Geosmin is a gourmet mushroom and microgreen urban farm store. This vending React App, collectively built by three team members, exhibits authentication and full CRUD using Express, Mongoose, and MongoDB. In a git flow style we've adhered to strict React architecture for a clean and easy working environment."
         },
         "tt_chat":{
             title:"TT Chat",
             deploy_url:"https://tt-chat-ticket-tracker.netlify.app/",
             github_url:"https://github.com/jeri-dilts/TT_Ticket_Tracker",
-            image_path:"https://i.imgur.com/gH832UN.png",
+            image_path:"https://i.imgur.com/Y7xhZib.jpg",
             description:"TT Ticket Tracker is a full-stack application built with ReactJS and a Ruby on Rails server. It serves as a dual chat / ticket management system."
         },
         "pizza":{
             title:"Pizza Pie!",
             deploy_url:"https://pizza-pie.netlify.app/",
             github_url:"https://github.com/jeri-dilts/pizza",
-            image_path:"https://i.imgur.com/Ngb91vo.png",
+            image_path:"https://i.imgur.com/eKx9zBw.jpg",
             description:"Pizza Pie! is a merchant social-esque React App, Airtable build where the user can interactively build their own pizza, name it, and place it for order."
         },
         "geosmin":{
             title:"Geosmin",
             deploy_url:"https://geosmin.netlify.app/",
             github_url:"https://github.com/jeri-dilts/geosmin",
-            image_path:"https://i.imgur.com/JCmcnIn.png",
+            image_path:"https://i.imgur.com/DA7LINR.jpg",
             description:"Geosmin is a gourmet mushroom and microgreen urban farm store. This vending React App, collectively built by three team members, exhibits authentication and full CRUD using Express, Mongoose, and MongoDB. In a git flow style we've adhered to strict React architecture for a clean and easy working environment."
         }
     }
@@ -47,6 +47,6 @@ export default function Portfolio() {
     )
 
     return (
-        <div>{PROJECTS}</div>
+        <div className="project-container">{PROJECTS}</div>
     );
 }
