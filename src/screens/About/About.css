@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: center;
-    height: 70vh;
+    height: 60vh;
     align-items: center;
     justify-items: center;
 }
