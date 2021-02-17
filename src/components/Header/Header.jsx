@@ -1,6 +1,6 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
-import pdf from "../../img/Jeri_Dilts_Full_Stack_Developer_01282020.pdf"
+import pdf from "../../img/Jeri_Dilts_Full_Stack_Developer_02172021.pdf"
 
 export default function Header() {
   return (
