@@ -8,6 +8,7 @@ In no particular order...
 8. get tool tip feature on about screen
 10. Would be cool to do a different hover effect on github and linked in icons
 
+Add personal site to resume
 
 
 
