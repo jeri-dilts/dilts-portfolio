@@ -4,14 +4,13 @@
   height: 70vh;
   justify-content: center;
   align-items: center;
-  margin-top:50px;
+  margin-top:10px;
 }
 .CU-form {
   display: flex;
   flex-direction: column;
 }
 .email{
-  /* font-family: 'Open Sans', sans-serif; */
   font-family: 'Montserrat', sans-serif;
   color: #162B32;
   font-size: 1.1em;

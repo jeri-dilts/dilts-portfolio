@@ -39,7 +39,7 @@ const ContactForm = () => {
         templateParams,
         "user_V3N7pWJeD8tUCc53zAuDI"
       )
-      .then(() => history.push("/ThanksForViewing/thankyou"));
+      .then(() => history.push("/thankyou"));
   };
 
   const renderError = () => {

@@ -15,3 +15,7 @@ Add personal site to resume
 7. connect netlify to my bought google domain
 2. mobile responsive design
 9. fix all px and em --- inconsistencies
+
+
+open resume in new tab - Hunter suggestion
+change flavicon and blurb in that file about your app - Zac Suggestion - index.html
