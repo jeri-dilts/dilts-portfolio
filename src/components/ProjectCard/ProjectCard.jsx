@@ -1,5 +1,7 @@
 import "./ProjectCard.css";
-import { Link } from "react-router-dom";
+import { IconContext } from "react-icons";
+import { FaGithub } from "react-icons/fa";
+import { GrDeploy } from "react-icons/gr";
 
 export default function ProjectCard(props) {
     const { title, deploy_url, github_url, image_path,description} = props;
@@ -7,17 +9,24 @@ export default function ProjectCard(props) {
     return (
         <div className="card">
             <div class="overlay-zone">
-                <a href={deploy_url}>
-                    <img className="project_img overlay-zone" src={image_path} alt="" />
-                </a>
+                <img className="project_img" src={image_path} />
+
                 <div class="overlay">
-                    <div className="card-title">{title}</div>
+                    <div class="card-contents">
+                        <div className="card-title">{title}</div>
+                        <div className="card-description">{description}</div>
+                        <div className="gh-li-icon-container">
+                            <IconContext.Provider value={{ className: "gh-icon" }}>
+                                <a href={github_url}><FaGithub /></a>
+                                <a href={deploy_url}><GrDeploy /></a>
+                            </IconContext.Provider>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     );
 }
 
-{/* <div className="card-title">{title}</div>
-            <div className="card-description">{description}</div>
-            <div className="card-githubURL">{github_url}</div> */}
+{/* <div className="card-githubURL">{github_url}</div> */}

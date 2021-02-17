@@ -1,13 +1,14 @@
-.project_img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 .overlay-zone{
     position: relative;
 }
+.project_img{
+    width: 100%;    
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
 .overlay{
-    background-color: rgba(0, 182, 158, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     height: 100%;
     width: 100%;
     opacity: 0;
@@ -20,18 +21,33 @@
     opacity: 1;
     transition: opacity .5s;
 }
-
-
-
-
-
-/* .card-title {
-    font-size: 14px;
-    font-weight: bold;
-    text-align: left;
-    height: 40px;
-    width: 225px;
-    margin-top:5px;
-    padding-left: 10px;
+.card-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+.card-title{  
     font-family: 'Montserrat', sans-serif;
-}  */
+    font-size: 3vh;
+}
+.card-description{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2vh;
+}
+.fa-gr-icon-container{
+    display: flex;
+    justify-content: center;
+    /* padding: 20px; */
+}
+svg.gh-icon{
+    margin-top: 10px;
+    color: limegreen;
+    height: 3em;
+    width: 3em;
+}

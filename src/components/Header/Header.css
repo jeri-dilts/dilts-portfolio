@@ -8,12 +8,6 @@
     font-size: 5em;
     transition: 1s ease;
 }
-/* .name-link:hover{
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    transition: .7s ease;
-} */
 .right-nav{
     display: flex;
     flex-direction: row;
@@ -27,3 +21,13 @@
 .link:hover{
     color: #81C14B;
 }
+
+
+
+
+/* .name-link:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: .7s ease;
+} */
