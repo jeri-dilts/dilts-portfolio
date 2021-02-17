@@ -14,10 +14,10 @@ export default function App() {
         <Route path='/ThanksForViewing!' component={Main} />
         <Fragment>
           <Layout>
-            <Route path='/ThanksForViewing/about' component={About} />
-            <Route path='/ThanksForViewing/portfolio' component={Portfolio} />
-            <Route path='/ThanksForViewing/contact' component={Contact} />
-            <Route path='/ThanksForViewing/thankyou' component={ThankYou} />
+            <Route path='/about' component={About} />
+            <Route path='/portfolio' component={Portfolio} />
+            <Route path='/contact' component={Contact} />
+            <Route path='/thankyou' component={ThankYou} />
           </Layout>
         </Fragment>
       </Switch>
