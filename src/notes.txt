@@ -1,0 +1,18 @@
+In no particular order...
+
+1. better routing url names.... don't like what I have currently
+2. mobile responsive design
+3. put all projects into Air Table and connect via axios
+4. Use 'map' when rendering all those icons in the about screen
+5. sticky icons
+6. parallax effect would be cool
+7. connect netlify to my bought google domain
+8. get tool tip feature on about screen
+9. fix all px and em --- inconsistencies
+10. Would be cool to do a different hover effect on github and linked in icons
+11. Center divs better on the About screen
+
+today - work on portfolio page and update resume + link ....(potential resume component)
+
+
+put product cards in css grid

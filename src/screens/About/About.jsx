@@ -25,14 +25,8 @@ export default function About() {
         <img src="https://i.imgur.com/9qfVW9x.png" alt="professional-photo" className="professional-image"/>
         <div className="gh-li-icon-container">
           <IconContext.Provider value={{ className: "gh-li-icon" }}>
-            <div className="icon">
-              <a href="https://linkedin.com/in/jeri-dilts">
-                <FaLinkedin />
-              </a>
-              <a href="https://github.com/jeri-dilts">
-                <FaGithub />
-              </a>
-            </div>
+            <a href="https://linkedin.com/in/jeri-dilts"><FaLinkedin /></a>
+            <a href="https://github.com/jeri-dilts"><FaGithub /></a>
           </IconContext.Provider>
         </div>
       </div>
@@ -49,59 +43,59 @@ export default function About() {
       {/* implement javascript here.... there is too much repeating... use map */}
       <div className="dev-icon-container">
         <IconContext.Provider value={{ className: "dev-icon" }}>
-          <div className="icon, item-center">
+          <div className="item-center">
             <DiReact />
           </div>
           <div className="text">React</div>
-          <div className="icon, item-center">
+          <div className="item-center">
             <DiHeroku />
           </div>
           <div className="text">Heroku</div>
-          <div className="icon, item-center">
+          <div className="item-center">
             <DiJavascript1 />
           </div>
           <div className="text">Javascript</div>
-          <div className="icon, item-center">
+          <div className="item-center">
             <DiHtml5 />
           </div>
           <div className="text">Html5</div>
-          <div className="icon, item-center">
+          <div className="item-center">
             <DiNodejs />
           </div>
           <div className="text">Nodejs</div>
-          <div className="icon, item-center">
+          <div className="item-center">
             <DiMsqlServer />
           </div>
           <div className="text">MySQL Server</div>
-          <div className="icon, item-center">
+          <div className="item-center">
             <DiMongodb />
           </div>
           <div className="text">MongoDB</div>
-          <div className="icon, item-center">
+          <div className="item-center">
             <DiPostgresql />
           </div>
           <div className="text">Postgresql</div>
-          <div className="icon, item-center">
+          <div className="item-center">
             <DiLinux />
           </div>
           <div className="text">Linux</div>
-          <div className="icon, item-center">
+          <div className="item-center">
             <DiRuby />
           </div>
           <div className="text">Ruby</div>
-          <div className="icon, item-center">
+          <div className="item-center">
             <DiRor />
           </div>
           <div className="text">Ruby on Rails</div>
-          <div className="icon, item-center">
+          <div className="item-center">
             <DiVisualstudio />
           </div>
           <div className="text">Visual Studio</div>
-          <div className="icon, item-center">
+          <div className="item-center">
             <DiPerl />
           </div>
           <div className="text">Perl</div>
-          <div className="icon, item-center">
+          <div className="item-center">
             <DiNpm />
           </div>
           <div className="text">NPM</div>
