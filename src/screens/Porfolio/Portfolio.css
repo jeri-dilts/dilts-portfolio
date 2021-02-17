@@ -1,8 +1,10 @@
 .project-container{
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    grid-gap: 15px;
+    grid-gap: 10px;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }

@@ -10,7 +10,7 @@ export default function Portfolio() {
             deploy_url:"https://geosmin.netlify.app/",
             github_url:"https://github.com/jeri-dilts/geosmin",
             image_path:"https://i.imgur.com/DA7LINR.jpg",
-            description:"Geosmin is a gourmet mushroom and microgreen urban farm store. This vending React App, collectively built by three team members, exhibits authentication and full CRUD using Express, Mongoose, and MongoDB. In a git flow style we've adhered to strict React architecture for a clean and easy working environment."
+            description:"Geosmin is a gourmet mushroom and microgreen urban farm store. This vending React App, collectively built by three team members, exhibits authentication and full CRUD using the MERN stack."
         },
         "tt_chat":{
             title:"TT Chat",
@@ -26,12 +26,26 @@ export default function Portfolio() {
             image_path:"https://i.imgur.com/eKx9zBw.jpg",
             description:"Pizza Pie! is a merchant social-esque React App, Airtable build where the user can interactively build their own pizza, name it, and place it for order."
         },
-        "geosmin":{
-            title:"Geosmin",
-            deploy_url:"https://geosmin.netlify.app/",
-            github_url:"https://github.com/jeri-dilts/geosmin",
-            image_path:"https://i.imgur.com/DA7LINR.jpg",
-            description:"Geosmin is a gourmet mushroom and microgreen urban farm store. This vending React App, collectively built by three team members, exhibits authentication and full CRUD using Express, Mongoose, and MongoDB. In a git flow style we've adhered to strict React architecture for a clean and easy working environment."
+        "guapo":{
+            title:"Guapo",
+            deploy_url:"#",
+            github_url:"#",
+            image_path:"https://i.imgur.com/i09nsAv.png",
+            description:"The coolest dog around."
+        },
+        "guapo1":{
+            title:"Guapo",
+            deploy_url:"#",
+            github_url:"#",
+            image_path:"https://i.imgur.com/KO8oKan.png",
+            description:"The coolest dog around."
+        },
+        "guapo2":{
+            title:"Guapo",
+            deploy_url:"#",
+            github_url:"#",
+            image_path:"https://i.imgur.com/QPRTyF9.png",
+            description:"The coolest dog around."
         }
     }
 

@@ -7,26 +7,21 @@ export default function ProjectCard(props) {
     const { title, deploy_url, github_url, image_path,description} = props;
 
     return (
-        <div className="card">
-            <div class="overlay-zone">
-                <img className="project_img" src={image_path} />
-
-                <div class="overlay">
-                    <div class="card-contents">
-                        <div className="card-title">{title}</div>
-                        <div className="card-description">{description}</div>
-                        <div className="gh-li-icon-container">
-                            <IconContext.Provider value={{ className: "gh-icon" }}>
-                                <a href={github_url}><FaGithub /></a>
-                                <a href={deploy_url}><GrDeploy /></a>
-                            </IconContext.Provider>
-                        </div>
+        <div className='overlay-zone'>
+            <img className="gallery__img" src={image_path} />
+            <div className="overlay">
+                <div class="card-contents">
+                    <div className="card-title">{title}</div>
+                    <div className="card-description">{description}</div>
+                    <div className="fa-gr-icon-container">
+                        <IconContext.Provider value={{ className: "gh-icon" }}>
+                            <a href={github_url}><FaGithub /></a>
+                            <a href={deploy_url}><GrDeploy /></a>
+                        </IconContext.Provider>
                     </div>
                 </div>
-
             </div>
         </div>
+        
     );
 }
-
-{/* <div className="card-githubURL">{github_url}</div> */}
