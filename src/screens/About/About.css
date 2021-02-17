@@ -1,9 +1,10 @@
 .page-container{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
     justify-content: center;
+    height: 60vh;
     align-items: center;
-    height: 70vh;
+    justify-items: center;
 }
 
 
@@ -13,10 +14,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
 }
 .professional-image{
-    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -24,24 +23,22 @@
 .gh-li-icon-container{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    margin-top: 15px;
 }
 svg.gh-li-icon{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 
 
 /* middle column */
 .about-paragraph{
-    display: flex;
     font-family: 'Open Sans', sans-serif;
-    letter-spacing: 1px;
-    padding: 20px;
+    letter-spacing: .9px;
     max-width: 300px;
     text-align: center;
-    margin-left: 20px;
+    color: #162B32;
 }
 
 
@@ -49,14 +46,13 @@ svg.gh-li-icon{
 /* right column */
 .dev-icon-container{
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    width: 30%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 10px;
     justify-content: center;
 }
 .item-center {
     display: grid;
     grid-auto-flow: column;
-    gap: 4px;
     align-items: center;
     justify-items: center;
 }
@@ -67,7 +63,7 @@ svg.gh-li-icon{
 svg.dev-icon, svg.gh-li-icon{
     height: 3em;
     width: 3em;
-    color:#455b64
+    color: #162B32;
 }
 svg.dev-icon:hover, svg.gh-li-icon:hover{
     color:#81C14B;

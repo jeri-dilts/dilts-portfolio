@@ -2,14 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
 body {
   background-color: white;
 }
 
 /* override webkit-any-link */
 a, a:link, a:visited, a:focus, a:hover, a:active{
-  color:#455b64;
+  color:#162B32;
   text-decoration:none; 
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
 }
+
+/* font-family: 'Montserrat', sans-serif; */

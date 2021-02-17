@@ -4,19 +4,18 @@
     padding: 3% 7% 0% 7%; /* trbl */
 }
 .name-link{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
     font-size: 5em;
-    transition: 1s ease;
 }
 .right-nav{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    margin-bottom: 1em;
+    margin-bottom: 2.2em;
 }
 .link{
     padding-left: 1.1em;
-    padding-right: 1.1em;
+    font-family: 'Montserrat', sans-serif;
 }
 .link:hover{
     color: #81C14B;
@@ -24,7 +23,7 @@
 
 
 
-
+/* ----Animation ---- */
 /* .name-link:hover{
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);

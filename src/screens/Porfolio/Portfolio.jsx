@@ -38,14 +38,14 @@ export default function Portfolio() {
             deploy_url:"#",
             github_url:"#",
             image_path:"https://i.imgur.com/KO8oKan.png",
-            description:"The coolest dog around."
+            description:"The handsomest dog around."
         },
         "guapo2":{
             title:"Guapo",
             deploy_url:"#",
             github_url:"#",
             image_path:"https://i.imgur.com/QPRTyF9.png",
-            description:"The coolest dog around."
+            description:"The most chill dog around."
         }
     }
 

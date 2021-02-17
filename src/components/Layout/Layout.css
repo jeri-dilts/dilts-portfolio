@@ -1,0 +1,9 @@
+.layout-container{
+    min-height: calc(100vh - 70px);
+}
+.footer{
+    height: 50px;
+}
+
+
+/* https://css-tricks.com/couple-takes-sticky-footer/ */
