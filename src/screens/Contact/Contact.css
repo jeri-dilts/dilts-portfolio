@@ -11,8 +11,9 @@
   flex-direction: column;
 }
 .email{
-  font-family: 'Open Sans', sans-serif;
-  color:#455b64;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  color: #162B32;
   font-size: 1.1em;
   margin-top: 50px;
 }

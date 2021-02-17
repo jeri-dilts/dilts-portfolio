@@ -5,8 +5,8 @@
     margin-top: 210px;
 }
 .name-title {
-    font-family: "Montserrat", sans-serif;
-    color: #455b64;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #162B32;
     font-size: 5em;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
@@ -14,10 +14,10 @@
 }
 .sub-title {
     font-family: "Montserrat", sans-serif;
-    color: #455b64;
+    color: #162B32;
     font-size: 2em;
     font-style: italic;
-    margin-top: 0.4em;
+    /* margin-top: 0.2em; */
 }
 .nav {
     display: flex;
@@ -28,8 +28,6 @@
 .link {
     padding-left: 1.1em;
     padding-right: 1.1em;
-    text-decoration: none;
-    color: #455b64;
 }
 .link:hover {
     color: #81C14B;
