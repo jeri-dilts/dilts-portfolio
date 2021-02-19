@@ -16,9 +16,11 @@ Add personal site to resume
 2. mobile responsive design
 9. fix all px and em --- inconsistencies
 
-open resume in new tab - Hunter suggestion
-change flavicon and blurb in that file about your app - Zac Suggestion - index.html
+change flavicon -- messaged Hunter about where he got is favicons
 edit font and font color on thank you page
 get tool tip feature on about screen
 fix icons on portfolio page
+
+
+
 filter portfolio photo
