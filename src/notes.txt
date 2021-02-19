@@ -16,10 +16,8 @@ Add personal site to resume
 2. mobile responsive design
 9. fix all px and em --- inconsistencies
 
-change flavicon -- messaged Hunter about where he got is favicons
-https://materialdesignicons.com/
-
-
-edit font and font color on thank you page
 get tool tip feature on about screen
 fix icons on portfolio page
+
+
+awesome flavicon source: https://icons8.com/
