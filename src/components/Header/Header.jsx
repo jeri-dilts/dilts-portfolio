@@ -15,12 +15,3 @@ export default function Header() {
     </div>
   );
 }
-
-
-{/* <a
-href="https://drive.google.com/file/d/1PaMworqazqZXScpl3mw-xYM2phHTO6_M/view?usp=sharing"
-target="_blank"
-rel="noopener noreferrer"
->
-Resume
-</a> */}
