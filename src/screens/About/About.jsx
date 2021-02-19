@@ -21,9 +21,9 @@ import {
 export default function About() {
   return (
     <div className="page-container">
-      
+
       <div className="photo-and-links-container">
-        <img src="https://i.imgur.com/9qfVW9x.png" alt="professional-photo" className="professional-image"/>
+        <img src="https://i.imgur.com/uzlZFhR.png" alt="professional-photo" className="professional-image"/>
         <div className="gh-li-icon-container">
           <IconContext.Provider value={{ className: "gh-li-icon" }}>
             <a href="https://linkedin.com/in/jeri-dilts"><FaLinkedin /></a>

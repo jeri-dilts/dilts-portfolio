@@ -5,17 +5,18 @@ In no particular order...
 4. Use 'map' when rendering all those icons in the about screen
 5. sticky icons
 6. parallax effect would be cool
-8. get tool tip feature on about screen
-10. Would be cool to do a different hover effect on github and linked in icons
+
+
 
 Add personal site to resume
 
 
 
 7. connect netlify to my bought google domain
-2. mobile responsive design
-9. fix all px and em --- inconsistencies
+2. mobile responsive design and fix all px and em --- inconsistencies
+
+get tool tip feature on about screen
+fix icons on portfolio page
 
 
-open resume in new tab - Hunter suggestion
-change flavicon and blurb in that file about your app - Zac Suggestion - index.html
+awesome flavicon source: https://icons8.com/
