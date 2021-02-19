@@ -1,21 +1,21 @@
 In no particular order...
 
-1. better routing url names.... need to work on conditional rendering w/Router
+
 3. put all projects into Air Table and connect via axios
 4. Use 'map' when rendering all those icons in the about screen
 5. sticky icons
 6. parallax effect would be cool
+8. get tool tip feature on about screen
 
 
 
-Add personal site to resume
+"Add personal site to resume"
 
 
-
-7. connect netlify to my bought google domain
+1. better routing url names.... need to work on conditional rendering w/Router
 2. mobile responsive design and fix all px and em --- inconsistencies
 
-get tool tip feature on about screen
+
 fix icons on portfolio page
 
 
