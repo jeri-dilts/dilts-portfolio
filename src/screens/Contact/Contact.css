@@ -21,3 +21,11 @@
 .textfield{
   width: 40vw;
 }
+
+/* ------------------------------------------------ Media Query ---------- */
+/* All Iphones */
+@media (max-width: 415px) {
+  .textfield{
+    width: 70vw;
+  }
+}

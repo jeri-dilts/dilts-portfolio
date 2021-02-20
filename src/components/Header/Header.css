@@ -23,6 +23,26 @@
 
 
 
+/* ------------------------------------------------ Media Query ---------- */
+/* All Iphones */
+
+@media (max-width: 415px) {
+    .name-link {
+        font-size: 3em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* ----Animation ---- */
 /* .name-link:hover{
     -webkit-transform: scale(1.1);

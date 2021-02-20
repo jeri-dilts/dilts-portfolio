@@ -93,3 +93,13 @@ svg.dev-icon:hover, svg.gh-li-icon:hover{
 .icon:hover + .text {
     visibility: visible;
 } */
+
+
+
+
+
+/* ------------------------------------------------ Media Query ---------- */
+/* All Iphones */
+@media (max-width: 415px) {
+    
+}
