@@ -20,3 +20,18 @@ fix icons on portfolio page
 
 
 awesome flavicon source: https://icons8.com/
+
+
+
+// Trying the hamburger menu to conditionally render upon
+// screen width changing
+Evyn02/20/2021
+@jeri did you figure it out? I've done it a couple times now 
+from scratch using an event listener to listen to screen width 
+changes and state, I copy the code every time lol. I also added 
+CSS transition group for my portfolio one
+-- I feel like useEffect would be needed for everytime the screen changes the state
+would need to be changed.
+
+- transfer all GA materials to my personal github and make them private
+- go over ReactJS lectures again to really nail down useEffect, state, hooks, etc

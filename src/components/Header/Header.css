@@ -7,7 +7,7 @@
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 5em;
 }
-.right-nav{
+.right-nav, .hamburger-icon{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -20,7 +20,6 @@
 .link:hover{
     color: #81C14B;
 }
-
 
 
 /* ------------------------------------------------ Media Query ---------- */
