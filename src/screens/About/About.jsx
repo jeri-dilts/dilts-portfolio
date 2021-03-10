@@ -22,7 +22,7 @@ export default function About() {
   return (
     <div className="page-container">
 
-      <div className="photo-and-links-container">
+      <div className="photo-container">
         <img src="https://i.imgur.com/uzlZFhR.png" alt="professional-photo" className="professional-image"/>
       </div>
 

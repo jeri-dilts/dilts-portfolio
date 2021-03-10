@@ -1,0 +1,6 @@
+.right-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 2.6em;
+}

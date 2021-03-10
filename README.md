@@ -1,3 +1,3 @@
 # Current Deploy
 
-[Jeri Dilts](http://jeridilts.com).
+[Jeri Dilts](https://jeridilts.com).

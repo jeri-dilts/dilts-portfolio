@@ -1,0 +1,6 @@
+.hamburger-icon{
+    display: flex;    
+    align-items: flex-end;
+    margin-bottom: 2.6em;
+}
+label[for="hamburger"] { font-size: 3em }

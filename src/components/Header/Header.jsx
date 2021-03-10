@@ -1,118 +1,83 @@
 import "./Header.css";
-import Hamburger from 'hamburger-react'
+import Hamburger from "../Hamburger/Hamburger";
+import Nav from "../Nav/Nav";
 import { Link } from "react-router-dom";
-import pdf from "../../img/Jeri_Dilts_Full_Stack_Developer_03_10_2021.pdf";
-import { useState, useEffect } from 'react';
-
-
-
-
+import { useState, useEffect } from "react";
 
 export default function Header() {
 
-
-
-  // hamburger menu toggle state
-  const [isOpen, setOpen] = useState(false)
-
-  // setting state - responsive window 
-  const [dimensions, setDimensions] = useState({
-    height: window.innerHeight,
+  // state created for auto re-render
+  const [dimensions, setDimensions] = useState({ 
     width: window.innerWidth
-  });
+  })
 
-
-
-
-
+  // listener placed on Header for window size
   useEffect(() => {
-
-    // trigger a re-render by changing the state
-    const debouncedHandleResize = debounce(function handleResize() {
+    function handleResize() {
       setDimensions({
-        height: window.innerHeight,
         width: window.innerWidth
-      });
-    }, 1000);
+      })
+    }
+    window.addEventListener('resize', handleResize)
 
-    // detecting event by listening for a window resize
-    window.addEventListener("resize", debouncedHandleResize);
-
+    // cleaning up event listener (avoid binding)
     return _ => {
-      window.removeEventListener("resize", debouncedHandleResize);
-    };
-  });
+      window.removeEventListener('resize', handleResize)
+    }
+  })
 
-  // const navigationRenderType(size){
 
-  //   const isLoggedIn = props.isLoggedIn;
-  //     if (isLoggedIn) {
-  //       return <UserGreeting />;
-  //     }
-  //     return <GuestGreeting />;
-  // }
-
+  // hamburger menu or regular nav rendered per window dimensions
+  function navType() {
+    if (dimensions.width < 1000) {
+      return <Hamburger />;
+    }
+    return <Nav />;
+  }
+  
 
 
   return (
+
     <div className="header-container">
-        <div className="name-link"><Link to="/">Jeri Dilts</Link></div>
+
+      <div className="name-link">
+        <Link to="/">Jeri Dilts</Link>
+      </div>
+
+      {navType()}
       
-        <div className="hamburger-icon">
-          {dimensions.width < 416 && <Hamburger />}
-        </div>
-        {/* {dimensions.width < 416 && <Hamburger toggled={isOpen} toggle={setOpen} />} */}
-        {/* {dimensions.width > 415 && } */}
-        
-
-
-        {/* <div className="hamburger-menu">
-          <Hamburger toggled={isOpen} toggle={setOpen} />
-        </div> */}
-
-        <div className="right-nav">
-            <Link to="about" className="link">About</Link>
-            <Link to="portfolio" className="link">Portfolio</Link>
-            <a href={pdf} className="link" target="_blank">Resume</a>
-            <Link to="contact" className="link">Contact</Link>
-        </div>
     </div>
-  );
-
-  // return (
-  //   <div>
-  //     Rendered at {dimensions.width} x {dimensions.height}
-  //   </div>
-  // );
+  )
 }
 
 
 
+// Notes:
 
-
-// less aggressive re-rendering (for performance reasons)
-function debounce(fn, ms) {
-  let timer;
-  return _ => {
-    clearTimeout(timer);
-    timer = setTimeout(_ => {
-      timer = null;
-      fn.apply(this, arguments);
-    }, ms);
-  };
-}
-
-const rootElement = document.getElementById("root");
-// ReactDOM.render(<MyComponent />, rootElement);
-
-
-
-// Reference:
+// Reference
 // https://www.pluralsight.com/guides/re-render-react-component-on-window-resize
 
 
 
-// When window size gets smaller, hamburger appears and nav disappears
-// When window size get larger, hamburger menu disappears and nav appears
-// Position hamburger menu in the right location
+
+
+// hamburger menu toggle state
+//  const [isOpen, setOpen] = useState(false);
+
 // On click (toggle) hamburger menu gives nav options
+
+      // {/* {dimensions.width < 416 && <Hamburger toggled={isOpen} toggle={setOpen} />} */}
+      // {/* {dimensions.width > 415 && } */}
+
+      // {/* <div className="hamburger-menu">
+      //     <Hamburger toggled={isOpen} toggle={setOpen} />
+      //   </div> */}
+      {/* <div className="hamburger-icon">
+        {dimensions.width < 1000 && <Hamburger />}
+      </div>
+
+
+      <div className="regular-nav">
+        {dimensions.width > 1000 && <Nav />}
+      </div> */}

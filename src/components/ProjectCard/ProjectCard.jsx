@@ -10,7 +10,7 @@ export default function ProjectCard(props) {
         <div className='overlay-zone'>
             <img className="gallery__img" src={image_path} />
             <div className="overlay">
-                <div class="card-contents">
+                <div className="card-contents">
                     <div className="card-title">{title}</div>
                     <div className="card-description">{description}</div>
                     <div className="fa-gr-icon-container">
