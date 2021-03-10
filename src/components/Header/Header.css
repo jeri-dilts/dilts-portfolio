@@ -7,7 +7,13 @@
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 5em;
 }
-.right-nav, .hamburger-icon{
+.right-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    /* margin-bottom: 2.2em; */
+}
+.hamburger-icon{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -23,11 +29,22 @@
 
 
 /* ------------------------------------------------ Media Query ---------- */
-/* All Iphones */
+
+/* Breakpoints  */
 
 @media (max-width: 415px) {
     .name-link {
-        font-size: 3em;
+        font-size: 2.2em;
+    }
+}
+@media (max-width: 500px) {
+    .name-link {
+        font-size: 2.5em;
+    }
+}
+@media (max-width: 415px) {
+    .name-link {
+        font-size: 2em;
     }
 }
 
