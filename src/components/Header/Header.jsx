@@ -15,7 +15,12 @@ export default function Header() {
   // hamburger menu toggle state
   const [isOpen, setOpen] = useState(false)
 
-  // setting state - responsive window 
+
+
+
+
+  
+  // setting state - responsive window -- don't need to save these sizes, just need the listener
   const [dimensions, setDimensions] = useState({
     height: window.innerHeight,
     width: window.innerWidth

@@ -15,19 +15,18 @@
 .sub-title {
     font-family: "Montserrat", sans-serif;
     color: #162B32;
-    font-size: 2em;
+    font-size: 1.5em;
     font-style: italic;
-    /* margin-top: 0.2em; */
 }
 .nav {
     display: flex;
     flex-direction: row;
     font-family: "Montserrat", sans-serif;
-    margin-top: 1.5em;
 }
 .link {
     padding-left: 1.1em;
     padding-right: 1.1em;
+    margin-top: 1.5em;
 }
 .link:hover {
     color: #81C14B;
