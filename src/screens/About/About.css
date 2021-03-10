@@ -10,7 +10,7 @@
 
 
 /* left column */
-.photo-and-links-container{
+.photo-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,4 +107,15 @@ svg.gh-li-icon{
 /* All Iphones */
 @media (max-width: 415px) {
     
+}
+
+/* double column */
+@media (max-width: 950px) {
+    .page-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+    }
+    .photo-container, .about-paragraph{
+        margin-bottom: 40px;
+    }
 }

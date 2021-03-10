@@ -1,5 +1,5 @@
 import "./Header.css";
-import Hamburger from "hamburger-react";
+import Hamburger from "../Hamburger/Hamburger";
 import Nav from "../Nav/Nav";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
@@ -25,26 +25,28 @@ export default function Header() {
       window.removeEventListener('resize', handleResize)
     }
   })
+
+
+  // hamburger menu or regular nav rendered per window dimensions
+  function navType() {
+    if (dimensions.width < 1000) {
+      return <Hamburger />;
+    }
+    return <Nav />;
+  }
+  
+
+
   return (
 
     <div className="header-container">
-
 
       <div className="name-link">
         <Link to="/">Jeri Dilts</Link>
       </div>
 
-
-      <div className="hamburger-icon">
-        {dimensions.width < 1000 && <Hamburger />}
-      </div>
-
-
-      <div className="regular-nav">
-        {dimensions.width > 1000 && <Nav />}
-      </div>
-
-
+      {navType()}
+      
     </div>
   )
 }
@@ -56,13 +58,13 @@ export default function Header() {
 // Reference
 // https://www.pluralsight.com/guides/re-render-react-component-on-window-resize
 
+
+
+
+
 // hamburger menu toggle state
 //  const [isOpen, setOpen] = useState(false);
 
-// When window size gets smaller, hamburger appears and nav disappears - needs use
-// effect
-// When window size get larger, hamburger menu disappears and nav appears
-// Position hamburger menu in the right location
 // On click (toggle) hamburger menu gives nav options
 
       // {/* {dimensions.width < 416 && <Hamburger toggled={isOpen} toggle={setOpen} />} */}
@@ -71,3 +73,11 @@ export default function Header() {
       // {/* <div className="hamburger-menu">
       //     <Hamburger toggled={isOpen} toggle={setOpen} />
       //   </div> */}
+      {/* <div className="hamburger-icon">
+        {dimensions.width < 1000 && <Hamburger />}
+      </div>
+
+
+      <div className="regular-nav">
+        {dimensions.width > 1000 && <Nav />}
+      </div> */}

@@ -1,23 +1,12 @@
 .header-container{
     display: flex;
+    justify-content: center;
     justify-content: space-between;
     padding: 3% 7% 0% 7%; /* trbl */
 }
 .name-link{
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 5em;
-}
-.right-nav{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    /* margin-bottom: 2.2em; */
-}
-.hamburger-icon{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    margin-bottom: 2.2em;
 }
 .link{
     padding-left: 1.1em;
