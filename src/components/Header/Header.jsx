@@ -56,7 +56,7 @@ export default function Header() {
 
   return (
     <div className="header-container">
-        <div className="name-link"><Link to="/ThanksForViewing!">Jeri Dilts</Link></div>
+        <div className="name-link"><Link to="/">Jeri Dilts</Link></div>
       
         <div className="hamburger-icon">
           {dimensions.width < 416 && <Hamburger />}
