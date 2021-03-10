@@ -1,3 +1,3 @@
 # Current Deploy
 
-[Jeri Dilts](https://jeridilts.netlify.app/ThanksForViewing!).
+[Jeri Dilts](www.jeridilts.com).
