@@ -43,14 +43,14 @@ export default function Header() {
     };
   });
 
-  const navigationRenderType(size){
+  // const navigationRenderType(size){
 
-    const isLoggedIn = props.isLoggedIn;
-      if (isLoggedIn) {
-        return <UserGreeting />;
-      }
-      return <GuestGreeting />;
-  }
+  //   const isLoggedIn = props.isLoggedIn;
+  //     if (isLoggedIn) {
+  //       return <UserGreeting />;
+  //     }
+  //     return <GuestGreeting />;
+  // }
 
 
 
