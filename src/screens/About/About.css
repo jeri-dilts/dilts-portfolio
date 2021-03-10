@@ -20,11 +20,6 @@
     margin-right: auto;
     display: block;
 }
-.gh-li-icon-container{
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
 svg.gh-li-icon{
     margin-left: 12px;
     margin-right: 12px;
@@ -39,6 +34,11 @@ svg.gh-li-icon{
     max-width: 400px;
     text-align: center;
     color: #162B32;
+}
+.gh-li-icon-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }
 
 
@@ -60,13 +60,18 @@ svg.gh-li-icon{
 
 
 /* icon styling */
-svg.dev-icon, svg.gh-li-icon{
-    height: 3em;
-    width: 3em;
+svg.dev-icon{
+    height: 3.3em;
+    width: 3.3em;
     color: #162B32;
 }
 svg.dev-icon:hover, svg.gh-li-icon:hover{
     color:#81C14B;
+}
+svg.gh-li-icon{
+    height: 2.8em;
+    width: 2.8em;
+    color: #162B32;
 }
 
 
@@ -93,3 +98,13 @@ svg.dev-icon:hover, svg.gh-li-icon:hover{
 .icon:hover + .text {
     visibility: visible;
 } */
+
+
+
+
+
+/* ------------------------------------------------ Media Query ---------- */
+/* All Iphones */
+@media (max-width: 415px) {
+    
+}

@@ -11,7 +11,7 @@ export default function App() {
   return (
     <div className="App">
       <Switch>
-        <Route path='/ThanksForViewing!' component={Main} />
+        <Route exact path='/' component={Main} />
         <Fragment>
           <Layout>
             <Route path='/about' component={About} />

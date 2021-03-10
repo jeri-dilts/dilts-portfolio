@@ -24,12 +24,6 @@ export default function About() {
 
       <div className="photo-and-links-container">
         <img src="https://i.imgur.com/uzlZFhR.png" alt="professional-photo" className="professional-image"/>
-        <div className="gh-li-icon-container">
-          <IconContext.Provider value={{ className: "gh-li-icon" }}>
-            <a href="https://linkedin.com/in/jeri-dilts"><FaLinkedin /></a>
-            <a href="https://github.com/jeri-dilts"><FaGithub /></a>
-          </IconContext.Provider>
-        </div>
       </div>
 
       <div className="about-paragraph">
@@ -39,6 +33,12 @@ export default function About() {
         problems. I try to make my work fun and innovative as well as my
         approach to life. I thrive in challenging environments and am looking
         for a company just as ambitious as myself.
+        <div className="gh-li-icon-container">
+          <IconContext.Provider value={{ className: "gh-li-icon" }}>
+            <a href="https://linkedin.com/in/jeri-dilts"><FaLinkedin /></a>
+            <a href="https://github.com/jeri-dilts"><FaGithub /></a>
+          </IconContext.Provider>
+        </div>
       </div>
 
       {/* implement javascript here.... there is too much repeating... use map */}
