@@ -11,7 +11,7 @@ export default function Header() {
     width: window.innerWidth
   })
 
-  // listener placed on Header for window size
+  // listener placed on window for size change tracking
   useEffect(() => {
     function handleResize() {
       setDimensions({
