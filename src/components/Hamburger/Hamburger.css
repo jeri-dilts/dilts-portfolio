@@ -1,33 +1,28 @@
-.hamburger-icon{
+label {
     display: flex;    
     align-items: flex-end;
-    margin-bottom: 2.6em;
+    font-size: 3em;
+    margin-top: .9em;
+    /* margin-bottom: 2em; */
 }
-label[for="hamburger"] { font-size: 3em }
-
 
 /* hides the checkbox */
-/* input[type=checkbox] {
-    display: none;
-} */
-
+input[type=checkbox] {
+    visibility: hidden;
+}
 
 /* Toggle Show/Hide Menu */
 .menu-items{ display: none; }
-/* .hamburger-icon input:checked ~ .menu-items{ display: block; } */
-
-/* #hamburger-menu-toggle-1:checked ~ .sidebar { */
-/* #hamburger input:checked ~ .menu-items{ display: block; } */
+.hamnav input:checked ~ .menu-items { display: block; }
 
 
-/* #hamburger {
-    display:none;
-} */
-#hamburger ~ label button {
+
+
+/* sibling issue -css selector*/
+
+/* #hamburger ~ label button {
     background:yellow;
 }
 #hamburger:checked ~ label button {
     background:red;
-}
-
-/* sibling issue -css selector*/
+} */

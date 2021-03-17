@@ -6,12 +6,8 @@ export default function Hamburger() {
 
     return (
         <nav className="hamnav">
-            <div className="hamburger-icon">
-                <input type="checkbox" id="hamburger"/>
-                <label htmlFor="hamburger">
-                    <button>&#9776;</button>
-                </label>  
-            </div>
+            <input type="checkbox" id="hamburger"/>
+            <label htmlFor="hamburger">&#9776;</label>  
             <div className="menu-items">
                 <Link to="about" className="link">About</Link>
                 <Link to="portfolio" className="link">Portfolio</Link>
