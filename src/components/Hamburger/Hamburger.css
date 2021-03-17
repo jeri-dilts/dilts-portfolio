@@ -5,10 +5,29 @@
 }
 label[for="hamburger"] { font-size: 3em }
 
-.menu-items{
+
+/* hides the checkbox */
+/* input[type=checkbox] {
     display: none;
-}
+} */
+
 
 /* Toggle Show/Hide Menu */
-#hamitems { display: none; }
-#hamnav input:checked ~ #hamitems { display: block; }
+.menu-items{ display: none; }
+/* .hamburger-icon input:checked ~ .menu-items{ display: block; } */
+
+/* #hamburger-menu-toggle-1:checked ~ .sidebar { */
+/* #hamburger input:checked ~ .menu-items{ display: block; } */
+
+
+/* #hamburger {
+    display:none;
+} */
+#hamburger ~ label button {
+    background:yellow;
+}
+#hamburger:checked ~ label button {
+    background:red;
+}
+
+/* sibling issue -css selector*/
