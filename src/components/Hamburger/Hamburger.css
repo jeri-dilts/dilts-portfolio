@@ -1,9 +1,10 @@
 label {
     display: flex;    
     align-items: flex-end;
+    justify-content: center;
     font-size: 3em;
     margin-top: .9em;
-    /* margin-bottom: 2em; */
+    color:#162B32;
 }
 
 /* hides the checkbox */
@@ -13,16 +14,28 @@ input[type=checkbox] {
 
 /* Toggle Show/Hide Menu */
 .menu-items{ display: none; }
-.hamnav input:checked ~ .menu-items { display: block; }
+.hamnav input:checked ~ .menu-items {display: block;}
 
 
-
-
-/* sibling issue -css selector*/
-
-/* #hamburger ~ label button {
-    background:yellow;
+  /* Break down menu items into vertical */
+.menu-items a {
+    display: block;
+    margin: 10px;
+    padding: 5px;
 }
-#hamburger:checked ~ label button {
-    background:red;
-} */
+.menu-items{
+    position: relative; 
+    background-color: grey;
+    border-radius: 5px;
+}
+
+/* trying to get menu to overlay page */
+/* .hamnav{
+    border:solid;
+    position: fixed;
+    z-index: 1;
+  } */
+
+/* Reference */
+/* https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ */
+/* sibling issue -css selector*/
