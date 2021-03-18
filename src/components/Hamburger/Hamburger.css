@@ -1,36 +1,89 @@
+/* hamburger toggle icon */
 label {
-    display: flex;    
-    align-items: flex-end;
-    justify-content: center;
+    position: fixed;
     font-size: 3em;
     padding-bottom: .5em;
     color:#162B32;
+    z-index: 100;
+    -webkit-transition: opacity .25s ease;
+    transition: opacity .25s ease;
+    top: 5%;
+    right: 5%;
 }
+
+
 
 /* hides the checkbox */
 input[type=checkbox] {
     visibility: hidden;
 }
 
-/* Toggle Show/Hide Menu */
-.menu-items{ display: none; }
-.hamnav input:checked ~ .menu-items {display: block;}
 
 
-  /* Break down menu items into vertical */
-.menu-items a {
-    display: block;
-    margin: 10px;
-    padding: 5px;
-}
-.menu-items{
+/* positioning menu with effects */
+.menu-items {
     position: fixed;
-    background-color: #C4C6C8;
-    background: rgba(228,232,244, .8);
-    border-radius: 5px;
+    background: #C4C6C8;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .35s, visibility .35s, height .35s;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
     z-index: 1;
 }
 
-/* Reference */
-/* https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ */
-/* sibling issue -css selector*/
+
+
+.hamnav input:checked ~ .menu-items {
+    opacity: .9;
+    visibility: visible;
+    height: 100%;
+}
+
+
+
+.menu-items nav {
+    position: relative;
+    height: 70%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+}
+.menu-items ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+}
+
+.menu-items ul li {
+    display: block;
+    height: 25%;
+    height: calc(100% / 4);
+    min-height: 50px;
+    position: relative;
+    /* opacity: 0; */
+}
+
+
+
+
+/* Toggle Show/Hide Menu */
+
+
+
+
+
+/* References: 
+https://codeconvey.com/build-fullscreen-overlay-hamburger-menu/ 
+https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
+*/

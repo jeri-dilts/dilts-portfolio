@@ -24,7 +24,7 @@ export default function Header() {
     return _ => {
       window.removeEventListener('resize', handleResize)
     }
-  })
+  },[])
 
 
   // hamburger menu or regular nav rendered per window dimensions
