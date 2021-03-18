@@ -11,7 +11,7 @@ export default function Header() {
     width: window.innerWidth
   })
 
-  // listener placed on Header for window size
+  // listener placed on window for size change tracking
   useEffect(() => {
     function handleResize() {
       setDimensions({
@@ -24,7 +24,7 @@ export default function Header() {
     return _ => {
       window.removeEventListener('resize', handleResize)
     }
-  })
+  },[])
 
 
   // hamburger menu or regular nav rendered per window dimensions
@@ -52,32 +52,5 @@ export default function Header() {
 }
 
 
-
-// Notes:
-
 // Reference
 // https://www.pluralsight.com/guides/re-render-react-component-on-window-resize
-
-
-
-
-
-// hamburger menu toggle state
-//  const [isOpen, setOpen] = useState(false);
-
-// On click (toggle) hamburger menu gives nav options
-
-      // {/* {dimensions.width < 416 && <Hamburger toggled={isOpen} toggle={setOpen} />} */}
-      // {/* {dimensions.width > 415 && } */}
-
-      // {/* <div className="hamburger-menu">
-      //     <Hamburger toggled={isOpen} toggle={setOpen} />
-      //   </div> */}
-      {/* <div className="hamburger-icon">
-        {dimensions.width < 1000 && <Hamburger />}
-      </div>
-
-
-      <div className="regular-nav">
-        {dimensions.width > 1000 && <Nav />}
-      </div> */}
