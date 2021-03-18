@@ -102,6 +102,9 @@ const ContactForm = () => {
         {renderError()}
       </form>
       <div className="email">diltsjeri@gmail.com</div>
+      <div className="powered">Powered by
+        <a href="https://www.emailjs.com">EmailJS</a>
+      </div>
     </div>
   );
 };
