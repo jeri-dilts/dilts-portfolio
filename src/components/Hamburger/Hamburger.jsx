@@ -6,8 +6,7 @@ export default function Hamburger() {
 
     // onclick reset toggle
     function toggle(){
-        let h = document.getElementById("hamburger")
-        h = "unchecked"
+        document.getElementById("hamburger").checked = false;
     }
 
     return (
