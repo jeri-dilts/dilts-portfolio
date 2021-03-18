@@ -5,7 +5,7 @@ import pdf from "../../img/Jeri_Dilts_Full_Stack_Developer_03_10_2021.pdf";
 export default function Hamburger() {
 
     return (
-        <nav className="hamnav">
+        <div className="hamnav">
             <input type="checkbox" id="hamburger"/>
             <label htmlFor="hamburger">&#9776;</label>  
             <div className="menu-items">
@@ -14,7 +14,7 @@ export default function Hamburger() {
                 <a href={pdf} className="link" target="_blank">Resume</a>
                 <Link to="contact" className="link">Contact</Link>
             </div>
-        </nav>
+        </div>
     )
 }
 
