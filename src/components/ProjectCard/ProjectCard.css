@@ -41,12 +41,6 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3vw;
 }
-
-
-
-
-
-
 .fa-gr-icon-container{
     display: flex;
     justify-content: center;
@@ -58,3 +52,21 @@ svg.gh-icon{
     height: 3em;
     width: 3em;
 }
+
+
+
+/* ---------- Media Queries ---------- */
+/* Breakpoints (950,650)*/ 
+
+/* double column */
+@media (max-width: 950px) {
+    .card-title{  
+        font-size: 1.4vw;
+    }
+    .card-description{
+        font-size: 5vw;
+    }
+}
+
+/* I think the problem is viewwidth(vw) doesn't work
+when the font is inside a div? */
