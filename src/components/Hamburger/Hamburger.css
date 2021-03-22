@@ -76,10 +76,43 @@ input[type=checkbox] {
 
 
 
+/* ---------- Media Queries ---------- */
+/* Iphone 5/SE - 320px */
+@media (max-width: 320px) {
+    label {
+        font-size: 2.4em;
+        top:5.6%;
+    }
+}
+/* MotoG4, Galaxy S5 - 360px */ 
+@media (min-width: 321px) {
+    label {
+        font-size: 2.5em;
+        top: 4.7%;
+    }
+}
+/* Iphone 6/7/8, Iphone X  - 375 */
+@media (min-width: 361px) {
+    label {
+        font-size: 2.5em;
+        top: 4.4%;
+    }
+}
+/* Pixel 2, Pixel 2XL - 411 - Iphone 6/7/8 Plus - 414px */
+@media (min-width: 411px) {
+    label {
+        font-size: 2.5em;
+        top: 4.7%;
+    }
+}
+/* Ipad - 768px */
+/* @media (max-width: 768px) {} */
 
 
 
-/* References: 
+
+/* 
+References: 
 https://codeconvey.com/build-fullscreen-overlay-hamburger-menu/ 
 https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
 */

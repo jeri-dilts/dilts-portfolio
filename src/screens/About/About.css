@@ -103,11 +103,22 @@ svg.gh-li-icon{
 
 
 
-/* ------------------------------------------------ Media Query ---------- */
-/* All Iphones */
-@media (max-width: 415px) {
-    
-}
+/* ---------- Media Queries ---------- */
+/* Iphone 5/SE - 320px */
+@media (max-width: 320px) {}
+/* MotoG4, Galaxy S5 - 360px */
+@media (max-width: 360px) {}
+/* Iphone 6/7/8, Iphone X - 375px */
+@media (max-width: 375px) {}
+/* Pixel 2, Pixel 2XL - 411 - Iphone 6/7/8 Plus - 414px */
+@media (max-width: 414px) {}
+/* Ipad - 768px */
+/* @media (max-width: 768px) {} */
+
+
+
+
+
 
 /* double column */
 @media (max-width: 950px) {

@@ -17,25 +17,44 @@
 }
 
 
-/* ------------------------------------------------ Media Query ---------- */
-
-/* Breakpoints  */
-
-@media (max-width: 500px) {
-    .name-link {
-        font-size: 2.5em;
-    }
-}
-@media (max-width: 415px) {
-    .name-link {
-        font-size: 2.2em;
-    }
-}
+/* ---------- Media Queries ---------- */
+/* Iphone 5/SE - 320px */
 @media (max-width: 320px) {
     .name-link {
         font-size: 2em;
     }
 }
+/* MotoG4, Galaxy S5 - 360px */
+@media (max-width: 360px) {
+    .name-link {
+        font-size: 2.1em;
+    }
+}
+/* Iphone 6/7/8, Iphone X - 375px */
+@media (max-width: 375px) {
+    .name-link {
+        font-size: 2.1em;
+    }
+}
+/* Pixel 2, Pixel 2XL - 411 - Iphone 6/7/8 Plus - 414px */
+@media (max-width: 414px) {
+    .name-link {
+        font-size: 2.2em;
+    }
+}
+/* Ipad - 768px */
+/* @media (max-width: 768px) {} */
+
+
+
+
+/* breakpoint  */
+@media (max-width: 500px) {
+    .name-link {
+        font-size: 2.5em;
+    }
+}
+
 
 
 
