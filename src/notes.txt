@@ -15,7 +15,8 @@ awesome flavicon source: https://icons8.com/
 
 convert all pixel to em on fonts.
 Do media queries for tables/ipads
-
+not have the hamburger menu fixed on the screen. - have it stick to the header
+get rid of linkedin and github icons -instead make links in about me description
 
 
 5 screens
@@ -24,3 +25,8 @@ contact
 main
 portfolio
 thank you
+
+
+
+*** Need to get hamburger to stay in the header and not stick to page in 
+fixed position

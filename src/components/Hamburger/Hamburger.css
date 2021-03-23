@@ -81,7 +81,7 @@ input[type=checkbox] {
 @media (max-width: 320px) {
     label {
         font-size: 2.4em;
-        top:5.6%;
+        top: 2.5%;
     }
 }
 /* MotoG4, Galaxy S5 - 360px */ 
@@ -102,7 +102,7 @@ input[type=checkbox] {
 @media (min-width: 411px) {
     label {
         font-size: 2.5em;
-        top: 4.7%;
+        top: 4.4%;
     }
 }
 /* Ipad - 768px */

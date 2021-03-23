@@ -25,19 +25,19 @@
     }
 }
 /* MotoG4, Galaxy S5 - 360px */
-@media (max-width: 360px) {
+@media (min-width: 321px) {
     .name-link {
         font-size: 2.1em;
     }
 }
 /* Iphone 6/7/8, Iphone X - 375px */
-@media (max-width: 375px) {
+@media (min-width: 361px) {
     .name-link {
         font-size: 2.1em;
     }
 }
 /* Pixel 2, Pixel 2XL - 411 - Iphone 6/7/8 Plus - 414px */
-@media (max-width: 414px) {
+@media (min-width: 411px) {
     .name-link {
         font-size: 2.2em;
     }
