@@ -9,6 +9,7 @@ nothing in ever truly done
 9. fix icons on portfolio page
 10. mobile responsive design and fix all px and em --- inconsistencies
 11. Check on Thank you submission screen. I keep forgetting about it.
+12. Design for ipads - https://codeconvey.com/responsive-media-queries-for-all-devices/
 
 awesome flavicon source: https://icons8.com/
 - go over ReactJS lectures again to really nail down useEffect, state, hooks, etc
@@ -29,3 +30,6 @@ thank you
 
 
 *** Didn't think about portait and landscape view
+
+Reference for media queries
+https://codeconvey.com/responsive-media-queries-for-all-devices/

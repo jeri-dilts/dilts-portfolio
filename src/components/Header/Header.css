@@ -18,59 +18,12 @@
 
 
 /* ---------- Media Queries ---------- */
-/* Iphone 5/SE - 320px */
-@media (max-width: 320px) {
-    .name-link {
-        font-size: 2em;
+
+/* Smartphones */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .name-link{
+        font-size: 2.5em;
     }
 }
-/* MotoG4, Galaxy S5 - 360px */
-@media (min-width: 321px) {
-    .name-link {
-        font-size: 2.1em;
-    }
-}
-/* Iphone 6/7/8, Iphone X - 375px */
-@media (min-width: 361px) {
-    .name-link {
-        font-size: 2.1em;
-    }
-}
-/* Pixel 2, Pixel 2XL - 411 - Iphone 6/7/8 Plus - 414px */
-@media (min-width: 411px) {
-    .name-link {
-        font-size: 2.2em;
-    }
-}
-/* Ipad - 768px */
-/* @media (max-width: 768px) {} */
-
-
-
-
-/* breakpoint  */
-@media (min-width: 500px) {
-    .name-link {
-        font-size: 3.4em;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ----Animation ---- */
-/* .name-link:hover{
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    transition: .7s ease;
-} */

@@ -4,11 +4,9 @@ label {
     font-size: 3em;
     padding-bottom: .5em;
     color:#162B32;
-    z-index: 100;
+    z-index: 100; /* position needs to be set to use z-index */
     -webkit-transition: opacity .25s ease;
     transition: opacity .25s ease;
-    /* top: 9.5%;
-    right: 9%; */
 }
 
 
@@ -38,6 +36,14 @@ input[type=checkbox] {
 
 
 
+/* positioning hamburger */
+.hamnav{
+    padding-bottom: 30px;
+}
+
+
+
+/* display menu if hamburger checked */
 .hamnav input:checked ~ .menu-items {
     opacity: .9;
     visibility: visible;
@@ -77,49 +83,17 @@ input[type=checkbox] {
 
 
 /* ---------- Media Queries ---------- */
-/* Iphone 5/SE - 320px */
-@media (max-width: 320px) {
-    label {
-        font-size: 2.4em;
-        top: 2.5%;
+/* Smartphones */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    label{
+        font-size: 2em;
+    }
+    .hamnav{
+        padding-bottom: 14px;
     }
 }
-/* MotoG4, Galaxy S5 - 360px */ 
-@media (min-width: 321px) {
-    label {
-        font-size: 2.5em;
-        top: 4.7%;
-    }
-}
-/* Iphone 6/7/8, Iphone X  - 375 */
-@media (min-width: 361px) {
-    label {
-        font-size: 2.5em;
-        top: 4.4%;
-    }
-}
-/* Pixel 2, Pixel 2XL - 411 - Iphone 6/7/8 Plus - 414px */
-@media (min-width: 411px) {
-    label {
-        font-size: 2.5em;
-        top: 4.4%;
-    }
-}
-/* Ipad - 768px */
-/* @media (max-width: 768px) {} */
-
-
-
-
-/* breakpoint  */
-@media (min-width: 500px) {
-    label {
-        padding-bottom: 20px;
-        /* top: 9.5%; */
-        right: 10%;
-    }
-}
-
 
 
 
