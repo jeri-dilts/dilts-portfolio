@@ -1,35 +1,30 @@
-In no particular order...things to work on, because
-nothing in ever truly done
-
-
-3. put all projects into Air Table and connect via axios
-4. Use 'map' when rendering all those icons in the about screen
-6. parallax effect would be cool
-8. get tool tip feature on about screen
-9. fix icons on portfolio page
-10. mobile responsive design and fix all px and em --- inconsistencies
-11. Check on Thank you submission screen. I keep forgetting about it.
-12. Design for ipads - https://codeconvey.com/responsive-media-queries-for-all-devices/
-
-awesome flavicon source: https://icons8.com/
-- go over ReactJS lectures again to really nail down useEffect, state, hooks, etc
-
-convert all pixel to em on fonts.
-Do media queries for tables/ipads
-not have the hamburger menu fixed on the screen. - have it stick to the header
-get rid of linkedin and github icons -instead make links in about me description
-
-
-5 screens
-about
-contact
-main
-portfolio
-thank you
+In no particular order...things to work on, because nothing in ever truly done
 
 
 
-*** Didn't think about portait and landscape view
+- 'Welcome' text doesn't highlight on mobile. -- need fixing
+- put all projects into Air Table and connect via axios
+- Use 'map' when rendering all those icons in the about screen
+- get tool tip feature on about screen
+- fix icons on portfolio page -get rid of linkedin and github icons -instead make links in about me description
 
-Reference for media queries
+
+
+- fix all px and em --- inconsistencies
+- Design for ipads - https://codeconvey.com/responsive-media-queries-for-all-devices/
+- Should I think about portait and landscape view on mobile?
+- Just a reminder to check on the Thank You submission screen. I keep forgetting about it.
+
+
+
+References
 https://codeconvey.com/responsive-media-queries-for-all-devices/
+https://icons8.com/ -- flavicon source
+https://codeconvey.com/build-fullscreen-overlay-hamburger-menu/ 
+https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
+https://www.pluralsight.com/guides/re-render-react-component-on-window-resize
+
+
+
+**go over ReactJS lectures again to really nail down useEffect, state, hooks, etc
+**I would like to try to to a parallax effect

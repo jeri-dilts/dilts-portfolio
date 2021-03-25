@@ -28,17 +28,19 @@ export default function About() {
 
       <div className="about-paragraph">
         In my previous life I was a scientist, but now I'm a software engineer!
-        Check out my GitHub as I build apps using ReactJS. In my previous
+        Check out my <a href="https://linkedin.com/in/jeri-dilts" 
+        class='connect'>Linkedin</a> and my <a href="https://github.com/jeri-dilts" 
+        class='connect'>GitHub</a> as I build apps using ReactJS. In my previous
         career, I had a knack for finding creative solutions to difficult
         problems. I try to make my work fun and innovative as well as my
         approach to life. I thrive in challenging environments and am looking
         for a company just as ambitious as myself.
-        <div className="gh-li-icon-container">
+        {/* <div className="gh-li-icon-container">
           <IconContext.Provider value={{ className: "gh-li-icon" }}>
             <a href="https://linkedin.com/in/jeri-dilts"><FaLinkedin /></a>
             <a href="https://github.com/jeri-dilts"><FaGithub /></a>
           </IconContext.Provider>
-        </div>
+        </div> */}
       </div>
 
       {/* implement javascript here.... there is too much repeating... use map */}

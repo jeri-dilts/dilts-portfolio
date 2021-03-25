@@ -50,7 +50,3 @@ export default function Header() {
     </div>
   )
 }
-
-
-// Reference
-// https://www.pluralsight.com/guides/re-render-react-component-on-window-resize
