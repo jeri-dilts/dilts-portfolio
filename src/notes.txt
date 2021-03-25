@@ -2,11 +2,13 @@ In no particular order...things to work on, because nothing in ever truly done
 
 
 
+- make my README have a little more context - super borning right?
 - 'Welcome' text doesn't highlight on mobile. -- need fixing
 - put all projects into Air Table and connect via axios
 - Use 'map' when rendering all those icons in the about screen
 - get tool tip feature on about screen
-- fix icons on portfolio page -get rid of linkedin and github icons -instead make links in about me description
+- fix icons on portfolio page - just tidier, maybe adjust the color
+- get rid of linkedin and github icons -instead make links in about me description
 
 
 
@@ -14,6 +16,8 @@ In no particular order...things to work on, because nothing in ever truly done
 - Design for ipads - https://codeconvey.com/responsive-media-queries-for-all-devices/
 - Should I think about portait and landscape view on mobile?
 - Just a reminder to check on the Thank You submission screen. I keep forgetting about it.
+- maybe add an animated hamburger? - https://hamburger-react.netlify.app/
+- or build a hamburger from scratch ... saw a tutorial on youtube with animations 
 
 
 
@@ -26,5 +30,5 @@ https://www.pluralsight.com/guides/re-render-react-component-on-window-resize
 
 
 
-**go over ReactJS lectures again to really nail down useEffect, state, hooks, etc
-**I would like to try to to a parallax effect
+** go over ReactJS lectures again to really nail down useEffect, state, hooks, etc
+** I would like to try to to a parallax effect
