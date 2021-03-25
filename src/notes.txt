@@ -10,7 +10,7 @@ In no particular order...things to work on, because nothing in ever truly done
 
 
 
-- fix all px and em --- inconsistencies
+- fix all px and em --- inconsistencies (not sure why this bothers me)
 - Design for ipads - https://codeconvey.com/responsive-media-queries-for-all-devices/
 - Should I think about portait and landscape view on mobile?
 - Just a reminder to check on the Thank You submission screen. I keep forgetting about it.

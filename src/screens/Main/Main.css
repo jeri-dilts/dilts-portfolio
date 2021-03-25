@@ -56,3 +56,12 @@
         margin-top: 120px;
     }
 }
+
+/* touch screen hover issue  -it's not finding this at all */
+/* I don't think it's possible on some devices */
+/* Need to read more about it */
+@media(any-hover: none) and (any-pointer: coarse) {
+    .link a:hover {
+        text-decoration: underline;
+    }
+}
