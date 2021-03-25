@@ -29,7 +29,7 @@ export default function Header() {
 
   // hamburger menu or regular nav rendered per window dimensions
   function navType() {
-    if (dimensions.width < 1000) {
+    if (dimensions.width < 1224) {
       return <Hamburger />;
     }
     return <Nav />;

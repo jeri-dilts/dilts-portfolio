@@ -17,41 +17,13 @@
 }
 
 
-/* ------------------------------------------------ Media Query ---------- */
+/* ---------- Media Queries ---------- */
 
-/* Breakpoints  */
-
-@media (max-width: 500px) {
-    .name-link {
+/* Smartphones */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .name-link{
         font-size: 2.5em;
     }
 }
-@media (max-width: 415px) {
-    .name-link {
-        font-size: 2.2em;
-    }
-}
-@media (max-width: 320px) {
-    .name-link {
-        font-size: 2em;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* ----Animation ---- */
-/* .name-link:hover{
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    transition: .7s ease;
-} */

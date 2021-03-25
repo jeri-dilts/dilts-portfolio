@@ -1,14 +1,12 @@
 /* hamburger toggle icon */
 label {
-    position: fixed;
+    position: relative; 
     font-size: 3em;
     padding-bottom: .5em;
     color:#162B32;
-    z-index: 100;
+    z-index: 100; /* position needs to be set to use z-index */
     -webkit-transition: opacity .25s ease;
     transition: opacity .25s ease;
-    top: 11.5%;
-    right: 9%;
 }
 
 
@@ -38,6 +36,14 @@ input[type=checkbox] {
 
 
 
+/* positioning hamburger */
+.hamnav{
+    padding-bottom: 30px;
+}
+
+
+
+/* display menu if hamburger checked */
 .hamnav input:checked ~ .menu-items {
     opacity: .9;
     visibility: visible;
@@ -46,6 +52,7 @@ input[type=checkbox] {
 
 
 
+/* styling the menu */
 .menu-items nav {
     position: relative;
     height: 70%;
@@ -64,7 +71,6 @@ input[type=checkbox] {
     position: relative;
     height: 100%;
 }
-
 .menu-items ul li {
     display: block;
     height: 25%;
@@ -76,14 +82,23 @@ input[type=checkbox] {
 
 
 
+/* ---------- Media Queries ---------- */
+/* Smartphones */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    label{
+        font-size: 2em;
+    }
+    .hamnav{
+        padding-bottom: 14px;
+    }
+}
 
-/* Toggle Show/Hide Menu */
 
 
-
-
-
-/* References: 
+/* 
+References: 
 https://codeconvey.com/build-fullscreen-overlay-hamburger-menu/ 
 https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
 */

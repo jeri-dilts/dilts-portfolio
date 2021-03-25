@@ -1,37 +1,35 @@
-In no particular order...
+In no particular order...things to work on, because
+nothing in ever truly done
 
 
 3. put all projects into Air Table and connect via axios
 4. Use 'map' when rendering all those icons in the about screen
-5. sticky icons
 6. parallax effect would be cool
 8. get tool tip feature on about screen
-
-
-
-"Add personal site to resume"
-
-
-1. better routing url names.... need to work on conditional rendering w/Router
-2. mobile responsive design and fix all px and em --- inconsistencies
-
-
-fix icons on portfolio page
-
+9. fix icons on portfolio page
+10. mobile responsive design and fix all px and em --- inconsistencies
+11. Check on Thank you submission screen. I keep forgetting about it.
+12. Design for ipads - https://codeconvey.com/responsive-media-queries-for-all-devices/
 
 awesome flavicon source: https://icons8.com/
-
-
-
-// Trying the hamburger menu to conditionally render upon
-// screen width changing
-Evyn02/20/2021
-@jeri did you figure it out? I've done it a couple times now 
-from scratch using an event listener to listen to screen width 
-changes and state, I copy the code every time lol. I also added 
-CSS transition group for my portfolio one
--- I feel like useEffect would be needed for everytime the screen changes the state
-would need to be changed.
-
-- transfer all GA materials to my personal github and make them private
 - go over ReactJS lectures again to really nail down useEffect, state, hooks, etc
+
+convert all pixel to em on fonts.
+Do media queries for tables/ipads
+not have the hamburger menu fixed on the screen. - have it stick to the header
+get rid of linkedin and github icons -instead make links in about me description
+
+
+5 screens
+about
+contact
+main
+portfolio
+thank you
+
+
+
+*** Didn't think about portait and landscape view
+
+Reference for media queries
+https://codeconvey.com/responsive-media-queries-for-all-devices/
