@@ -28,5 +28,4 @@ thank you
 
 
 
-*** Need to get hamburger to stay in the header and not stick to page in 
-fixed position
+*** Didn't think about portait and landscape view
